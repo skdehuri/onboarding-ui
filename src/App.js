@@ -1,11 +1,12 @@
-import './App.css';
+import OnboardingPage from './pages/Onboarding/OnboardingPage'
+import ThemeWrapper from './utils/ThemeWrapper'
 
 function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+    return (
+        <ThemeWrapper>
+            <OnboardingPage />
+        </ThemeWrapper>
+    )
 }
 
-export default App;
+export default App
